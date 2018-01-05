@@ -1,0 +1,12 @@
+DirectoryPath: "public"
+EnforceHTTPS: false
+IgnoreURLs:
+- "example.com"
+IgnoreDirs:
+- "lib"
+- "revealjs"
+CacheExpires: "6h"
+CheckExternal: false
+IgnoreAltMissing: true
+CheckInternalHash: false
+CheckDoctype: false

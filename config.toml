@@ -1,3 +1,96 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://wtg-env.netlify.com"
+languageCode = "fr"
+title = "Site de WTG Environnement"
+
+publishDir = "public"
+theme = "hugo-creative-theme"
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "fr"
+disableKinds = ["taxonomy","taxonomyTerm"]
+enableRobotsTXT = true
+googleAnalytics = ""
+
+[params]
+	name = "WTG Environnement"
+	description = "Site officiel de WTG Environnement"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+	# Navigation
+	[params.navigation]
+		brand = "WTG Environnement"
+
+		[params.navigation.links]
+			about     = "Qui sommes nous"
+			services  = "Nos prestations"
+			portfolio = "Nos références"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Le Grand-Est a SON géologue !"
+		subtitle   = "Expertise environnementale"
+		buttonText = "Découvrez tous nos services"
+
+	# About section
+	[params.about]
+		headline    = "Qui sommes nous ?"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		#buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Nos prestations"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Expertise géologique"
+            description = "Our templates are updated regularly so they don't break."
+
+        [[params.services.list]]
+			icon = "fa-dashboard"
+			title = "Dépolution"
+			description = "You can use this theme as is, or you can make changes!"
+
+		[[params.services.list]]
+            icon = "fa-sort-amount-asc"
+            title = "Carottage"
+            description = "We update dependencies to keep things fresh."
+
+        [[params.services.list]]
+            icon = "fa-cogs"
+            title = "Analyse environnementale"
+            description = "You have to make your websites with love these days!"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Notre plaquette détaillée"
+
+		[params.aside.button]
+			text = "Télécharger"
+			link = "/documents/test.pdf"
+
+	# Contact section
+	[params.contact]
+		headline = "Nous contacter ..."
+		description = "Contactez nous dès maintenant pour obtenir un **devis gratuit** !"
+		phone = "03 88 .. .. .."
+		email = "wtg.env@gmail.com"
+
+	# Google Maps section
+	[params.location]
+	 	latitude  = "48.793608"
+	 	longitude = "8.006754"
+	 	maps_api_key = ""
