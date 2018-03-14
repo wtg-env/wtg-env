@@ -31,40 +31,40 @@ googleAnalytics = ""
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Le Grand-Est a SON géologue !"
-		subtitle   = "Expertise environnementale"
+		slogan     = "Le Forage Environnemental"
+		subtitle   = "au service de vos projets"
 		buttonText = "Découvrez tous nos services"
 
 	# About section
 	[params.about]
 		headline    = "Qui sommes nous ?"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		description = "Située à Stattmatten (67), WTG-Environnement propose, depuis 2003, ses services dans les domaines du forage, de la géologie, de l'environnement et des travaux."
 		#buttonText  = "Get started!"
 
 
 	# Service section
 	[params.services]
-		headline = "Nos prestations"
+		headline = "Parmi nos principales prestations ..."
 
         [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Expertise géologique"
-            description = "Our templates are updated regularly so they don't break."
+            icon = "fa-eye"
+            title = "Sondage de Reconnaissance"
+            description = "WTG-Environnement est équipée de sondeuses sur chenilles Comacchio GEO 300 (3t) et GEO 305 (4,5t) permettant la réalisation de sondages de reconnaissance et la pose de piézomètres "
 
         [[params.services.list]]
-			icon = "fa-dashboard"
-			title = "Dépolution"
-			description = "You can use this theme as is, or you can make changes!"
+			icon = "fa-sort-amount-asc"
+			title = "Sondage carroté sous Gaine"
+			description = "WTG-Environnement est équipée d'une sondeuse GEOPROBE 54 LT sur chenilles permettant la réalisation de sondages carottés sous gaine."
+
+        [[params.services.list]]
+            icon = "fa-tint"
+            title = "Suivi de nappe et Pompage"
+            description = "WTG-Environnement réalise des travaux de suivis de nappes, des pompages, des essais de pompage, des installations et démontages de pompes."
 
 		[[params.services.list]]
-            icon = "fa-sort-amount-asc"
-            title = "Carottage"
-            description = "We update dependencies to keep things fresh."
-
-        [[params.services.list]]
-            icon = "fa-cogs"
-            title = "Analyse environnementale"
-            description = "You have to make your websites with love these days!"
+            icon = "fa-building"
+            title = "Sondage en intérieur"
+            description = "WTG-Environnement est équipée d'un carottier portable à gouges lanternées et propose des sondages de reconnaissance légers jusqu'à 4-5 mètres environ. Le matériel électrique et portable permet de réaliser facilement des investigations à l'intérieur de bâtiments et dans des endroits difficiles d'accès."
 
 
     # Portfolio modals
@@ -86,7 +86,7 @@ googleAnalytics = ""
 	[params.contact]
 		headline = "Nous contacter ..."
 		description = "Contactez nous dès maintenant pour obtenir un **devis gratuit** !"
-		phone = "03 88 .. .. .."
+		phone = "03 88 09 27 54"
 		email = "wtg.env@gmail.com"
 
 	# Google Maps section
