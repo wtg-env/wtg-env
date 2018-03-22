@@ -80,7 +80,7 @@ googleAnalytics = ""
 
 		[params.aside.button]
 			text = "Télécharger"
-			link = "/documents/test.pdf"
+			link = "/documents/presentation_wtg.pdf"
 
 	# Contact section
 	[params.contact]
