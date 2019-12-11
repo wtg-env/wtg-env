@@ -1,5 +1,5 @@
 #baseURL = "http://wtg-env.netlify.com"
-baseURL = "http://www.wtg-env.fr"
+baseURL = "https://www.wtg-env.fr"
 languageCode = "fr"
 title = "Site de WTG Environnement"
 
